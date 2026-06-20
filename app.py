@@ -28,7 +28,7 @@ SUSPICIOUS_CLASSES = {
     "person": "ai_multiple_persons",  # géré séparément (compte le nombre)
 }
 
-CONFIDENCE_THRESHOLD = 0.45
+CONFIDENCE_THRESHOLD = 0.30
 
 
 @app.get("/")
